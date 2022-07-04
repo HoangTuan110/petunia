@@ -1,6 +1,7 @@
 # Petunia
 
-A dead simple self-hosted pastebin service. Written in [Deno](https://deno.land/) with [Fresh](https://fresh.deno.dev/) web framework.
+A dead simple, file system-based, self-hosted pastebin service.
+Written in [Deno](https://deno.land/) with [Fresh](https://fresh.deno.dev/) web framework.
 
 ### Getting Started
 
@@ -12,7 +13,9 @@ Then, clone this repo:
 git clone https://git.sr.ht/~tsukii/petunia
 ```
 
-`cd` to the project directory and start the project:
+`cd` to the project directory, then create the directory `junkdir` at the root directory.
+
+Finally, start the project:
 
 ```
 deno task start
